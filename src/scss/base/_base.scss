@@ -143,10 +143,11 @@ pre > code {
 code {
     font-size:        map-get($font-size, medium);
     display:          inline-block;
-    font-family:      map-get($font-families, 'code');
-    font-weight:      400;
+    // font-family:      map-get($font-families, 'code');
+    font-family: Menlo, Consolas, monospace;
+    font-weight:      600;
     // background-color: map-get($highlight, 'background');
-    background-color: #919494;
+    background-color: #424242;
     // 代码块 文字颜色
     color: rgb(165, 1, 1);
     padding:          0 10px;

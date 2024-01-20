@@ -12,21 +12,23 @@
     overflow-x: hidden;
     z-index: map-get($z-indexes, l-about);
 
+    // 关于卡片
     #about-card {
         position: relative;
         // Position the card out the page to improve the javascript drop effect
         top: -1000px;
         display: block;
         // background: white;
+        // 关于卡片背景色
         background: -webkit-linear-gradient(bottom left, #bd430bde 0, #bba06b 100%);
+        border-radius: 25px;
         opacity: 0.65;
         -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        // box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
         max-width: 400px;
         margin: 15px auto;
-        border-radius: 3px;
         padding: 30px 0;
         @include prefix(box-shadow, 0 0 5px rgba(0, 0, 0, 0.50), 'webkit' 'moz');
 
@@ -45,11 +47,15 @@
 
         #about-card-picture {
             margin-bottom: 15px;
+            border-radius: 25px;
         }
 
         #about-card-name {
             margin-top: 0;
             margin-bottom: 20px;
+            font-size: 20px;
+            color: #31180af2;
+            font-family: "Open Sans";
         }
 
         #about-card-bio {
