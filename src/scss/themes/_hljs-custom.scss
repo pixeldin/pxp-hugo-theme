@@ -48,4 +48,114 @@ figure.highlight,
     // PUT YOUR THEME HERE
 
 }
+
+REF: https: //3mile.github.io/archives/2019/0826154529/
+
 */
+pre>code {
+    background: #f7f8f8;
+    color: #aaa;
+}
+
+// Default inline code
+code {
+    background-color: #f7f8f8;
+}
+
+
+// Tabbed code block tab
+// If your theme is dark then use a lighter background
+// to see clearly which tab is active
+.codeblock--tabbed figcaption .tab.active {
+    background: #002b36;
+    color: #839496;
+}
+
+// highlight code block
+figure.highlight,
+.codeblock {
+    background: #002b36;
+    color: #839496;
+
+    figcaption {
+        background: #002b36;
+        color: #839496;
+    }
+
+    .gutter {
+        background: #002b36;
+        border-right-color: #f7f8f8;
+
+        .line {
+            color: #839496;
+        }
+    }
+
+    // PUT YOUR THEME HERE
+    /* Solarized Green */
+    .keyword,
+    .selector-tag,
+    .addition {
+        color: #859900;
+    }
+
+    /* Solarized Cyan */
+    .number,
+    .string,
+    .meta .meta-string,
+    .literal,
+    .doctag,
+    .regexp {
+        color: #2aa198;
+    }
+
+    /* Solarized Blue */
+    .title,
+    .section,
+    .name,
+    .selector-id,
+    .selector-class {
+        color: #268bd2;
+    }
+
+    /* Solarized Yellow */
+    .attribute,
+    .attr,
+    .variable,
+    .template-variable,
+    .class .title,
+    .type {
+        color: #b58900;
+    }
+
+    /* Solarized Orange */
+    .symbol,
+    .bullet,
+    .subst,
+    .meta,
+    .meta .keyword,
+    .selector-attr,
+    .selector-pseudo,
+    .link {
+        color: #cb4b16;
+    }
+
+    /* Solarized Red */
+    .built_in,
+    .deletion {
+        color: #dc322f;
+    }
+
+    .formula {
+        background: #073642;
+    }
+
+    .emphasis {
+        font-style: italic;
+    }
+
+    .strong {
+        font-weight: bold;
+    }
+
+}

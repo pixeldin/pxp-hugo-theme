@@ -145,7 +145,10 @@ code {
     display:          inline-block;
     font-family:      map-get($font-families, 'code');
     font-weight:      400;
-    background-color: map-get($highlight, 'background');
+    // background-color: map-get($highlight, 'background');
+    background-color: #919494;
+    // 代码块 文字颜色
+    color: rgb(165, 1, 1);
     padding:          0 10px;
 }
 

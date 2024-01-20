@@ -21,7 +21,10 @@
   translation: "搜索"
 
 - id: "global.about"
-  translation: "关于"
+  translation: "关于我"
+
+- id: "global.lang"
+  translation: "EN"
 
 - id: "global.author_picture"
   translation: "作者的图片"

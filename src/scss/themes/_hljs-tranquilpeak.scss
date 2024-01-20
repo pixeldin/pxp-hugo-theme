@@ -18,7 +18,7 @@ code {
 // Tabbed code block tab
 .codeblock--tabbed figcaption .tab.active {
     background: map-get($colors, 'primary');
-    color:      white;
+    color:      red;
 }
 
 // Highlight code block
